@@ -36,8 +36,7 @@ bot.dialog('/', [
     function (session, results) {
         session.userData.favorite = results.response.entity;
         builder.Prompts.choice(session, "Okay, now why is he your favorite? Because you ...", 
-        ["think he's cool.", "are married to him.", "want his babies."],
-        );
+        ["think he's cool.", "are married to him.", "want his babies."]);
     },
     function (session, results) {
         session.userData.reason = results.response.entity;
