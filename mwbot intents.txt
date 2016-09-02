@@ -1,0 +1,13 @@
+Intents:
+    Tickets
+    Members
+    History
+    Alumni
+    Renting the clubhouse
+    Contact information
+    Feedback
+    Joining
+    Donations
+    Store
+    Jokes
+    Tour
