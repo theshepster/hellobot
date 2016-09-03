@@ -66,7 +66,7 @@ bot.use(builder.Middleware.dialogVersion({ version: 1.0, resetCommand: /^reset/i
 // Bots Global Actions
 //=========================================================
 
-bot.endConversationAction('goodbye', 'Goodbye :)', { matches: /^goodbye/i });
+bot.endConversationAction('goodbye', 'Goodbye Robbie!', { matches: /^goodbye/i });
 bot.beginDialogAction('help', '/help', { matches: /^help/i });
 
 //=========================================================
